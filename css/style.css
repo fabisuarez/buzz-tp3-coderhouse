@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: #1bbc9b; }
+
+.ancho-fijo {
+  width: 1170px;
+  margin: 0 auto; }
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto; }
+  .contenedor .header {
+    width: 100%;
+    background-color: #ffffff;
+    height: 75px;
+    margin: auto; }
+    .contenedor .header .logo {
+      width: 10%;
+      float: left; }
+      .contenedor .header .logo img {
+        float: left;
+        margin: 12px 0;
+        display: inline-block; }
+    .contenedor .header ul {
+      width: 80%;
+      margin: 30px 0;
+      float: left;
+      text-align: center; }
+      .contenedor .header ul li a {
+        color: #666666;
+        border-right: 1px solid black;
+        padding: 0px 10px; }
+      .contenedor .header ul li :last-child {
+        border-right: none; }
+    .contenedor .header nav {
+      width: 10%;
+      float: left;
+      margin: 30px 0;
+      color: #666666; }
+      .contenedor .header nav span {
+        float: right; }
+  .contenedor .slider {
+    background-color: #1d69a5;
+    height: 845px;
+    width: 100%;
+    text-align: center; }
+    .contenedor .slider h1 {
+      color: #ffffff;
+      font-size: 38px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      padding-top: 200px; }
+    .contenedor .slider p {
+      margin-top: 32px;
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Droid Serif', serif;
+      font-style: italic; }
+    .contenedor .slider img {
+      margin-top: 60px;
+      display: inline-block;
+      margin-bottom: 170px; }
+    .contenedor .slider a {
+      background-color: #1bbc9b;
+      opacity: 0.8;
+      border-radius: 50%;
+      display: inline-block;
+      position: absolute;
+      padding: 15px 20px;
+      top: 75%; }
+    .contenedor .slider .arrow-left {
+      left: 0;
+      margin-left: 50px; }
+    .contenedor .slider .arrow-right {
+      right: 0;
+      margin-right: 50px; }
+  .contenedor .services .ancho-fijo {
+    padding: 70px;
+    display: inline-block; }
+  .contenedor .services .service {
+    width: 27%;
+    float: left;
+    padding: 15px;
+    text-align: center;
+    margin-right: 35px; }
+    .contenedor .services .service:last-child {
+      margin-right: 0px; }
+    .contenedor .services .service img {
+      display: inline-block; }
+    .contenedor .services .service h6 {
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 60px; }
+    .contenedor .services .service span {
+      margin: 25px 0;
+      border-bottom: 2px solid #f6c640;
+      width: 25px;
+      display: inline-block; }
+    .contenedor .services .service p {
+      text-align: center;
+      color: #ffffff;
+      line-height: 20px; }
+
+/*# sourceMappingURL=style.css.map */

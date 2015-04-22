@@ -1,0 +1,135 @@
+@import "reset.scss";
+@import "variables.scss";
+body{
+    background-color: $verde;
+}
+.ancho-fijo{
+    width: 1170px;
+    margin: 0 auto;
+}
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+    .header{
+        width: 100%;
+        background-color: $blanco;
+        height: 75px;
+        margin: auto;
+        .logo{
+            width: 10%;
+            float: left;
+            img{
+                float: left;
+                margin: 12px 0;
+                display: inline-block;
+            }
+        }
+        ul{
+            width: 80%;
+          margin: 30px 0;
+          float: left;
+          text-align: center;
+            li{
+                a{
+            color: $gris;
+
+                    border-right: 1px solid black;
+                    padding: 0px 10px;
+                }
+                :last-child{
+                    border-right: none;
+                }
+            }
+        }
+        nav{
+            width: 10%;
+            float: left;
+            margin: 30px 0;
+            color: $gris;
+            span{
+                float: right;
+            }
+        }
+    }
+    .slider{
+        background-color: $azul;
+        height: 845px;
+        width: 100%;
+        text-align: center;
+        h1{
+            color: $blanco;
+            font-size: 38px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            padding-top: 200px;
+        }
+        p{
+            margin-top: 32px;
+            color: $blanco;
+            text-align: center;
+            font-family: 'Droid Serif', serif;
+            font-style: italic;
+        }
+        img{
+            margin-top: 60px;
+            display: inline-block;
+            margin-bottom: 170px;
+        }
+        a{
+            background-color: $verde;
+            opacity: 0.8;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            padding: 15px 20px;
+            top: 75%;
+        }
+        .arrow-left{
+            left: 0;
+            margin-left: 50px;
+        }
+        .arrow-right{
+            right: 0;
+            margin-right: 50px;
+        }
+    }
+    .services{
+        .ancho-fijo{
+            padding: 70px;
+            display: inline-block;
+        }
+        .service{
+              width: 27%;
+              float: left;
+              padding: 15px;
+              text-align: center;
+              margin-right: 35px;
+            &:last-child{
+  margin-right: 0px;
+
+            }
+            img{
+                display: inline-block;
+            }
+            h6{
+                text-align: center;
+                color: $blanco;
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 60px;
+            }
+            span{
+                margin: 25px 0;
+                border-bottom: 2px solid #f6c640;
+                width: 25px;
+                display: inline-block;
+            }
+            p{
+                text-align: center;
+                color: $blanco;
+                line-height: 20px;
+            }
+        }
+    }
+}
