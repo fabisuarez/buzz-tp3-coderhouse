@@ -338,17 +338,170 @@ h6{
         display: block;
     }
     .maps{
-        display: block;
+            display: block;
             width: 100%;
-
         iframe{
             width: 100%;
+            display: block;
         }
     }
     .wecan{
-        // MAQUETAR Andres
+      background-color: $azul;
+      width: 100%;
+      display:inline-block;
+      padding-top: 25px;
+      h6{
+        color: $blanco;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 2px;
+      }
+      h2{
+        color: $blanco;
+        text-align: center;
+        line-height: 62px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 34px;
+      }
+      img{
+        height: 64px;
+        display: inline-block;
+        position: relative;
+        left: 575px;
+        top: -42px;
+      }
+      p{
+        color:$blanco;
+        font-family: 'Droid Serif', serif;
+        font-style: italic;
+        font-size: 12px;
+      }
+      input{
+        background-color: #1d69a5;
+        border: 2px solid #578cb6;
+        font-family: 'Droid Serif', serif;
+        font-size: 16px;
+        padding-left: 14px;
+        width: 420px;
+        height: 41px;
+      }
+      textarea{
+        background-color: #1d69a5;
+        border: 2px solid #578cb6;
+        font-family: 'Droid Serif', serif;
+        font-size: 16px;
+        padding-left: 20px;
+        display: inline-block;
+        position: relative;
+        left: 466px;
+        bottom: 218px;
+        width: 415px;
+        height: 174px;
+        padding-top: 14px;
+      }
+      form{
+        margin-right: 45px;
+      }
+
+      form ul{
+        width: 870px;
+        margin: 0px;
+        padding: 0px;
+        margin: 0 auto;
+      }
+      li {
+        padding: 12px;
+        position: relative;
+        height: 48px;
+              }
+        .submit{
+          width: 136px;
+          height: 40px;
+          background-color: $naranja;
+          font-family: 'Montserrat', sans-serif;
+          text-align: center;
+          text-transform: uppercase;
+          border-style: none;
+          color: $blanco;
+          position: relative;
+          left: 382px;
+          bottom: 52px
+        }
+        .info{
+          width: 590px;
+          margin: 0 auto;
+          padding-top: 18px;
+            li{
+              float: left;
+              padding-left: 24px;
+              padding-bottom: 70px;
+            }
+            span{
+              color: $blanco;
+              font-size: 30px;
+              position: relative;
+              left: 108px;
+              bottom: 19px;
+            }
+            .ion-ios-chatboxes-outline {
+              position: absolute;
+              bottom: 101px;
+              left: 62px;
+            }
+            .prf1{
+              margin-top: 29px;
+            }
+            .ion-iphone{
+              position: absolute;
+              bottom: 102px;
+              left: 68px;
+            }
+            .prf2{
+              margin-top: 29px;
+            }
+        }
     }
+
     .allrights{
-        // MAQUETAR Andres
+        width: 100%;
+        height: 300px;
+        background-color: $azul_oscuro;
+        display:inline-block;
+        img{
+          width: 57px;
+          position: relative;
+          left: 560px;
+          padding-top: 60px;
+
+        }
+        .ca{
+          font-size: 12px;
+          color: $blanco;
+          margin-top: 16px;
+          letter-spacing: 2px;
+        }
+        ul{
+          position: relative;
+          left: 463px;
+          top:30px;
+            li{
+              padding-left: 15px;
+              a{
+                color:$blanco;
+                padding-left: 30px;
+              }
+            }
+        }
+        h5{
+          text-align: center;
+          text-transform: uppercase;
+          font-family: 'Montserrat', sans-serif;
+          color: $blanco;
+          padding-top: 76px;
+          font-size: 12px;
+          letter-spacing: 3px;
+        }
     }
 }
