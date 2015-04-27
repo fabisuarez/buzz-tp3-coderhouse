@@ -267,7 +267,70 @@ h6{
         // MAQUETAR Nicole
     }
     .subscribe{
-        // MAQUETAR Dario
+        background: #f6c640;
+        display: block;
+        width: 100%;
+        color: white;
+
+        .ancho-fijo{
+            padding: 90px 150px;
+            box-sizing: border-box;
+            overflow: auto;
+        }
+
+        img{
+            background: #a061dc;
+            float:left;
+            padding: 30px 34px;
+        }
+
+        h6{
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 0;
+            float: left;
+            margin-left: 30px;
+            font-size: 20px;
+        }
+
+        form{
+            width: 500px;
+            margin-top: 19px;
+            margin-left: 30px;
+            float: left;
+            position: relative;
+            input{
+                padding: 23px 50px 23px 23px;
+                font-family: 'Droid Serif', serif;
+                font-style: italic;
+                background: #f6c640;
+                border: white 1px solid;
+                color: #fff;
+                font-size: 14px;
+                width: 85%;
+                &::-webkit-input-placeholder { color: $blanco; } /* WebKit */
+                &:-moz-placeholder { color: $blanco; } /* Firefox 18- */
+                &::-moz-placeholder { color: $blanco; } /* Firefox 19+ */
+                &:-ms-input-placeholder { color: $blanco; } /* IE 10+ */
+            }
+            button{
+                position: absolute;
+                right: 0;
+                top: 0;
+                background: none;
+                border: none;
+                font-size: 25px;
+                border-left: 1px solid #fff;
+                color: #fff;
+                padding: 0px 0px 0px 16px;
+                margin: 17px;
+                cursor: pointer;
+                span{
+
+                }
+            }
+        }
     }
     .linea-amarilla-blanca{
         background: url("../images/linea-blanca-amarilla.jpg") repeat-x;
@@ -275,7 +338,12 @@ h6{
         display: block;
     }
     .maps{
-        // MAQUETAR Dario
+        display: block;
+            width: 100%;
+
+        iframe{
+            width: 100%;
+        }
     }
     .wecan{
         // MAQUETAR Andres

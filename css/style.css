@@ -245,9 +245,74 @@ h6 {
           .contenedor .porfolio-menu ul li a:hover {
             text-decoration: underline;
             color: #f47264; }
+  .contenedor .subscribe {
+    background: #f6c640;
+    display: block;
+    width: 100%;
+    color: white; }
+    .contenedor .subscribe .ancho-fijo {
+      padding: 90px 150px;
+      box-sizing: border-box;
+      overflow: auto; }
+    .contenedor .subscribe img {
+      background: #a061dc;
+      float: left;
+      padding: 30px 34px; }
+    .contenedor .subscribe h6 {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 0;
+      float: left;
+      margin-left: 30px;
+      font-size: 20px; }
+    .contenedor .subscribe form {
+      width: 500px;
+      margin-top: 19px;
+      margin-left: 30px;
+      float: left;
+      position: relative; }
+      .contenedor .subscribe form input {
+        padding: 23px 50px 23px 23px;
+        font-family: 'Droid Serif', serif;
+        font-style: italic;
+        background: #f6c640;
+        border: white 1px solid;
+        color: #fff;
+        font-size: 14px;
+        width: 85%;
+        /* WebKit */
+        /* Firefox 18- */
+        /* Firefox 19+ */
+        /* IE 10+ */ }
+        .contenedor .subscribe form input::-webkit-input-placeholder {
+          color: #ffffff; }
+        .contenedor .subscribe form input:-moz-placeholder {
+          color: #ffffff; }
+        .contenedor .subscribe form input::-moz-placeholder {
+          color: #ffffff; }
+        .contenedor .subscribe form input:-ms-input-placeholder {
+          color: #ffffff; }
+      .contenedor .subscribe form button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: none;
+        border: none;
+        font-size: 25px;
+        border-left: 1px solid #fff;
+        color: #fff;
+        padding: 0px 0px 0px 16px;
+        margin: 17px;
+        cursor: pointer; }
   .contenedor .linea-amarilla-blanca {
     background: url("../images/linea-blanca-amarilla.jpg") repeat-x;
     height: 12px;
     display: block; }
+  .contenedor .maps {
+    display: block;
+    width: 100%; }
+    .contenedor .maps iframe {
+      width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
