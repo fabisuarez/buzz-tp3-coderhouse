@@ -94,11 +94,13 @@ h6{
             padding-top: 200px;
         }
         p{
-            margin-top: 32px;
             color: $blanco;
+            margin-top: 32px;
             text-align: center;
             font-family: 'Droid Serif', serif;
             font-style: italic;
+            letter-spacing: 3px;
+            font-size: 12px;
         }
         img{
             margin-top: 60px;
@@ -266,6 +268,11 @@ h6{
     }
     .subscribe{
         // MAQUETAR Dario
+    }
+    .linea-amarilla-blanca{
+        background: url("../images/linea-blanca-amarilla.jpg") repeat-x;
+        height: 12px;
+        display: block;
     }
     .maps{
         // MAQUETAR Dario

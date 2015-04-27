@@ -110,11 +110,13 @@ h6 {
       text-transform: uppercase;
       padding-top: 200px; }
     .contenedor .slider p {
-      margin-top: 32px;
       color: #ffffff;
+      margin-top: 32px;
       text-align: center;
       font-family: 'Droid Serif', serif;
-      font-style: italic; }
+      font-style: italic;
+      letter-spacing: 3px;
+      font-size: 12px; }
     .contenedor .slider img {
       margin-top: 60px;
       display: inline-block;
@@ -243,5 +245,9 @@ h6 {
           .contenedor .porfolio-menu ul li a:hover {
             text-decoration: underline;
             color: #f47264; }
+  .contenedor .linea-amarilla-blanca {
+    background: url("../images/linea-blanca-amarilla.jpg") repeat-x;
+    height: 12px;
+    display: block; }
 
 /*# sourceMappingURL=style.css.map */
