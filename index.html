@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
     <meta charset="UTF-8">
     <title>Buzz TP3 - Coderhouse</title>
@@ -9,16 +9,29 @@
     <!-- -->
     <!-- Iconos -->
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- Iconos -->
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <nav class="menu push-menu-right">
+        <ul>
+            <li><button class="close-menu">Cerrar &rarr;</button></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Expertise</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">We Are</a></li>
+            <li><a href="#">Suscribe</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
     <div class="contenedor">
         <section class="header">
             <div class="ancho-fijo">
                 <div class="logo">
-                    <img src="images/buzz.png" alt="Buzz">
+                    <a href="#"><img src="images/buzz.png" alt="Buzz"></a>
                 </div>
                 <ul>
                     <li>
@@ -28,9 +41,9 @@
                         <a href="#" target="_blank" class="ion-social-linkedin"></a>
                     </li>
                 </ul>
-                <nav class="menu">
-                    <span class="ion-navicon-round"></span>
-                </nav>
+                <div class="btn-menu">
+                    <span class="ion-navicon-round nav-toggler toggle-push-right"></span>
+                </div>
             </div>
         </section>
         <section class="slider">
@@ -118,7 +131,7 @@
                 <article>
                     <h6>Portfolio</h6>
                     <h2>Works We Did</h2>
-                    <img src="images/line-portfolio.png" alt="">
+                    <img src="images/icon-linepointgray.png" alt="">
                 </article>
             </div>
         </section>
@@ -135,19 +148,31 @@
         </section>
         <section class="galeria">
             <ul>
-                <li><img src="images/galeria/trabajo1.jpg" alt=""></li>
-                <li><img src="images/galeria/trabajo1.jpg" alt=""></li>
-                <li><img src="images/galeria/trabajo1.jpg" alt=""></li>
-                <li><img src="images/galeria/trabajo1.jpg" alt=""></li>
-                <li><img src="images/galeria/trabajo1.jpg" alt=""></li>
-                <li><img src="images/galeria/trabajo1.jpg" alt=""></li>
-                <li><img src="images/galeria/trabajo1.jpg" alt=""></li>
-                <li><img src="images/galeria/trabajo1.jpg" alt=""></li>
+                <li><a href="#"><img src="images/galeria/galeria1.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/galeria/galeria2.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/galeria/galeria3.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/galeria/galeria4.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/galeria/galeria5.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/galeria/galeria8.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/galeria/galeria7.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/galeria/galeria6.jpg" alt=""></a></li>
             </ul>
         </section>
         <section class="weare">
+            <ul class="menu-frases">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
             <div class="ancho-fijo">
-                <!-- ESTRUCTURA Nicole -->
+                <img src="images/icon-world.png" alt="">
+                <h5>WE ARE KNOWN GLOBALY</h5>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus consectetur in nostrum saepe maiores! Beatae perspiciatis totam architecto sint placeat ab assumenda."</p>
+                <div class="founder">
+                    <img src="images/icon-comillas.png" alt="">
+                    <h6>JOHN SMITH</h6>
+                    <span>Founder, Litra Web Design</span>
+                </div>
             </div>
         </section>
         <span class="linea-amarilla-blanca"></span>
@@ -171,9 +196,9 @@
                 <img src="images/icon-linepoint.png">
                 <form action="" method="">
                     <fieldset>
-                        <input type="text" placeholder="Name*" required />
+                        <input type="text" name="name" placeholder="Name*" required />
                         <input type="email" name="email" placeholder="Email*" required />
-                        <input type="text" placeholder="Subject*" required />
+                        <input type="text" name="subject" placeholder="Subject*" required />
                     </fieldset>
                     <fieldset>
                         <textarea name="message" placeholder="Message" cols="55" rows="10" ></textarea>
@@ -194,20 +219,38 @@
         </section>
         <section class="allrights">
             <div class="ancho-fijo">
-                <img src="images/buzz.png">
-                <h6 class="ca">creative agency</h6>
+                <img src="images/b-footer.png">
+                <h6 class="ca">Creative Agency</h6>
                  <ul>
                     <li>
                         <a href="#" target="_blank" class="ion-social-twitter"></a>
+                    </li>
+                    <li>
                         <a href="#" target="_blank" class="ion-social-facebook"></a>
+                    </li>
+                    <li>
                         <a href="#" target="_blank" class="ion-social-dribbble-outline"></a>
+                    </li>
+                    <li>
                         <a href="#" target="_blank" class="ion-social-linkedin"></a>
                     </li>
                 </ul>
-                <h5><span class="fa fa-copyright"></span>© 2015 ALL RIGHTS RESERVED.</h5>
+                <span class="fa fa-copyright">© 2015 ALL RIGHTS RESERVED.</span>
             </div>
         </section>
     </div>
+    <script src="js/classie.js"></script>
+<script src="js/nav.js"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34160351-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 
 </body>
 </html>
